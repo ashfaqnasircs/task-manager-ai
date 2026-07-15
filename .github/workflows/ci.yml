@@ -21,4 +21,4 @@ jobs:
         run: npm install
 
       - name: Verify app runs
-        run: node -e "require('./app.js')"
+        run: node --check backend/app.js
